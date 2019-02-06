@@ -11,6 +11,15 @@
         console.log(`intervalo(3, -3) = ${JSON.stringify(intervalo(3, -3))}`)
         console.log(`intervalo(4) = ${JSON.stringify(intervalo(4))}`)
         console.log(`intervalo(-4) = ${JSON.stringify(intervalo(-4))}`)
+        console.log('###################################################################')
+    </script>
+    <script type="module">
+      import comparacao from './lib/comparacao.js'
+      window.comparacao = comparacao
+      console.log(`comparacao(1, 2) = ${JSON.stringify(comparacao(1, 2))}`)
+      console.log(`comparacao(1, 1) = ${JSON.stringify(comparacao(1, 1))}`)
+      console.log(`comparacao(1, 0) = ${JSON.stringify(comparacao(1, 0))}`)
+      console.log('###################################################################')
     </script>
   </head>
     <h1>Aperte F12</h1>
