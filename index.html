@@ -21,6 +21,13 @@
       console.log(`comparacao(1, 0) = ${JSON.stringify(comparacao(1, 0))}`)
       console.log('###################################################################')
     </script>
+    <script type="module">
+      import repetido from './lib/repetido.js'
+      window.repetido = repetido
+      window.lista = new Array(30).fill().map(_ => Math.trunc(10 * Math.random()))
+      console.log(`repetido = ${JSON.stringify(repetido(window.lista), null, 2)}`)
+      console.log('###################################################################')
+    </script>
   </head>
     <h1>Aperte F12</h1>
   <body>
