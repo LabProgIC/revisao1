@@ -1,0 +1,23 @@
+{
+  "name": "revisao1",
+  "version": "1.0.0",
+  "description": "## Intervalo Faça um algoritmo que receba dois valores e retorne todos os números inteiros compreendidos entre eles. O algoritmo deve estar preparado para o caso do primeiro número ser maior do que o segundo e vice-versa.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabProgIC/revisao1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LabProgIC/revisao1/issues"
+  },
+  "homepage": "https://github.com/LabProgIC/revisao1#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
