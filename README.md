@@ -63,3 +63,15 @@ multa e juros
 do imóvel e do débito incluindo se corre o risco da prefeitura tomar posse do imóvel
 4. Dar baixa em uma dívida: ao digitar o código de imóvel, o programa deve registrar
 que foi dado baixa naquela dívida
+
+# Instalação
+É necessário ter o git e o nodejs
+
+```bash
+git clone https://github.com/LabProgIC/revisao1
+cd revisao1
+npm install
+npm start
+```
+
+Depois visite [http://127.0.0.1:8080/](http://127.0.0.1:8080/)
